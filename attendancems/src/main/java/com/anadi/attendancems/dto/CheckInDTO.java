@@ -1,15 +1,13 @@
 package com.anadi.attendancems.dto;
 
+import java.time.LocalTime;
+
 import lombok.Getter;
 import lombok.Setter;
-
-import java.time.LocalDate;
-import java.time.LocalTime;
 
 @Getter
 @Setter
 public class CheckInDTO {
-    private Long employeeId;
-    private LocalDate clockInDate;
-    private LocalTime clockInTime;
+	private long employeeId;
+	private LocalTime clockInTime;
 }
